@@ -17,29 +17,28 @@ Technologies Used:
 - Installation and Setup
 
 How To Use:
-
 git clone https://github.com/YourUsername/PyTorchFlowerClassifier.git
-Navigate to the project directory and create a virtual environment:
 
+Navigate to the project directory and create a virtual environment:
 cd PyTorchFlowerClassifier
 python -m venv venv
+
 Activate the virtual environment:
+- On Windows: .\venv\Scripts\Activate
+- On macOS and Linux: source venv/bin/activate
 
-On Windows: .\venv\Scripts\Activate
-On macOS and Linux: source venv/bin/activate
 Install the required packages:
-
 pip install -r requirements.txt
-Run the Flask app:
 
+Run the Flask app:
 cd flask_app
 python app.py
 Open your web browser and go to http://127.0.0.1:5000/.
 
-Usage
-Click the "Upload" button to upload an image of a flower.
-Click "Classify" to get the prediction.
-The result will be displayed along with the confidence level.
+How To Use:
+- Click the "Upload" button to upload an image of a flower.
+- Click "Classify" to get the prediction.
+- The result will be displayed along with the confidence level.
 
 License
 MIT License
