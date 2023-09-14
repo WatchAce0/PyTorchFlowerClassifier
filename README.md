@@ -15,9 +15,7 @@ Technologies Used:
 - HTML/CSS
 - Python
 
-Installation and Setup
-
-How To Use:
+Installation and Setup:
 git clone https://github.com/YourUsername/PyTorchFlowerClassifier.git
 
 Navigate to the project directory and create a virtual environment:
