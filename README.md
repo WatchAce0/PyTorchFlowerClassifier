@@ -16,22 +16,22 @@ Technologies Used:
 - Python
 
 Installation and Setup:
-git clone https://github.com/YourUsername/PyTorchFlowerClassifier.git
+- git clone https://github.com/YourUsername/PyTorchFlowerClassifier.git
 
 Navigate to the project directory and create a virtual environment:
-cd PyTorchFlowerClassifier
-python -m venv venv
+- cd PyTorchFlowerClassifier
+- python -m venv venv
 
 Activate the virtual environment:
 - On Windows: .\venv\Scripts\Activate
 - On macOS and Linux: source venv/bin/activate
 
 Install the required packages:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 Run the Flask app:
-cd flask_app
-python app.py
+- cd flask_app
+- python app.py
 
 Open your web browser and go to http://127.0.0.1:5000/.
 
