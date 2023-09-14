@@ -14,7 +14,8 @@ Technologies Used:
 - Flask
 - HTML/CSS
 - Python
-- Installation and Setup
+
+Installation and Setup
 
 How To Use:
 git clone https://github.com/YourUsername/PyTorchFlowerClassifier.git
