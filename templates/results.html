@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flower Classifier Results</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #50b3a2;
+        color: white;
+        text-align: center;
+        padding: 1em;
+      }
+      .container {
+        max-width: 600px;
+        margin: 2em auto;
+        background: white;
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .result {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+      }
+      .back-button {
+        background-color: #50b3a2;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Flower Classifier Results</h1>
+    </header>
+    <div class="container">
+      <div class="result">{{ result_text }}</div>
+      <a href="/" class="back-button">Try Another Image</a>
+    </div>
+    <footer>
+      <p>Created with ❤️ by Joe DiGioia</p>
+    </footer>
+  </body>
+</html>
