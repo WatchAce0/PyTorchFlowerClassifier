@@ -1,0 +1,8 @@
+runtime: python39 # or the version you are using
+
+instance_class: F1
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+
+entrypoint: gunicorn -b :$PORT app:app # Replace 'app:app' with '<your_flask_file>:<your_flask_app>' if different
