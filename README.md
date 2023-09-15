@@ -2,6 +2,11 @@ PyTorch Flower Classifier 🌸
 
 Try the Live Demo: https://flowerpydemo.ue.r.appspot.com/
 
+How To Use:
+- Click the "Upload" button to upload an image of a flower.
+- Click "Classify" to get the prediction.
+- The result will be displayed along with the confidence level.
+
 This project is a deep learning-based flower classification system built using PyTorch. The model is trained on a dataset containing images of five different types of flowers: Daisy, Dandelion, Rose, Sunflower, and Tulip. The project also includes a web demo built with Flask, allowing users to upload an image and get a prediction in real-time.
 
 Features:
@@ -36,11 +41,6 @@ Run the Flask app:
 - python app.py
 
 Open your web browser and go to http://127.0.0.1:5000/.
-
-How To Use:
-- Click the "Upload" button to upload an image of a flower.
-- Click "Classify" to get the prediction.
-- The result will be displayed along with the confidence level.
 
 License
 MIT License
